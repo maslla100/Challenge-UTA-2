@@ -1,31 +1,33 @@
 
-/*varibales*/
+/* Varibales */
 :root{
-  --Gold: #b9c6ae;
-  --DarkBlue: #13293d;
-  --LightBackground: white;
-  --DarkBackground: #13293d;
+  --gold: #b9c6ae;
+  --darkblue: #13293d;
+  --lightbackground: white;
+  --darkbackground: #13293d;
   --fontsanseriff: sans-serif;
 }
 
+/* Global styles */
 body {
   font-family: var(--fontsanseriff);
   display: flex;
   margin:0;
   flex-direction: column;
   line-height: 1.3;
-  background-color: var(--LightBackground);
+  background-color: var(--lightbackground);
   padding: 0 2%;
   justify-content: flex-start;
 }
 
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  background-color: var(--DarkBackground);
-  color: var(--Gold);
+  background-color: var(--darkbackground);
+  color: var(--gold);
   font-family: var(--fontsanseriff);
   position: fixed;
   top: 0%;
@@ -33,7 +35,7 @@ header {
   left: 0%;
 
 }
-/* Nav bar */
+/* Navigation bar */
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -43,16 +45,17 @@ nav ul {
 }
 
 nav a {
-  color: var(--Gold);
+  color: var(--gold);
   font-weight:lighter;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
   color: #fff;
- 
+  text-decoration: underline;
 }
-
+/* Main content */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -64,11 +67,11 @@ main {
 aside {
   flex: auto;
   margin: 0% .5%;
-  background-color: var(--Gold);
-  color: var(--DarkBlue);
+  background-color: var(--gold);
+  color: var(--darkblue);
   padding: 1%;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px var(--DarkBlue);
+  box-shadow: 10px 10px 5px var(--darkblue);
   font-weight:lighter;
   margin-top: 11%;
   position:fixed;
@@ -84,7 +87,7 @@ aside li:hover {
 /*About Me*/
 .about {
   flex: auto;
-  color: var(--DarkBlue);
+  color: var(--darkblue);
   padding: auto;
   font-size: 1.2em;
   margin: 0% 0% 18% 19%;
@@ -96,7 +99,7 @@ aside li:hover {
 .about img {
   width: 100%;
   border-radius: 20px;
-  box-shadow: 10px 10px 5px var(--DarkBlue);
+  box-shadow: 10px 10px 5px var(--darkblue);
   margin-top: 10%;
   margin-bottom: auto;
 
@@ -118,12 +121,12 @@ aside li:hover {
   text-align: center;
   list-style: none;
   font-size: 1.2em;
-  color: var(--Gold);
+  color: var(--gold);
   margin: 0% 0% 18% 19%;
   margin-bottom: 1%;
 }
 .skills :hover {
-  color: var(--LightBackground)
+  color: var(--lightbackground)
 }
 
 .details {
@@ -131,9 +134,9 @@ aside li:hover {
   border-width: 1px;
   border-radius: 50px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px var(--Gold);
+  box-shadow: 10px 10px 5px var(--gold);
   margin: 50px;
-  background-color: var(--DarkBackground);
+  background-color: var(--darkbackground);
 
 }
 
@@ -146,14 +149,14 @@ aside li:hover {
   width: 50%;
 }
 .skills img:hover {
-  width: 100%;
+  width: 70%;
 }
 
 /* Footer */
 footer {
   justify-content: flex-start;
   padding: .05%;
-  color: var(--Gold);
+  color: var(--gold);
   margin:0% 3% 18% 19%;
 
 }
@@ -161,9 +164,27 @@ footer {
 footer a:hover {
   color: black;
 
+/* Media Query */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
   }
+}
 
+/* Accessibility */
+a:focus,
+button:focus {
+  outline: 3px solid blue;
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
