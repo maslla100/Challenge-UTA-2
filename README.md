@@ -60,6 +60,6 @@ If you have any questions about this project, please contact the author.
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maslla100/Challenge-UTA-2)
 ![GitHub followers](https://img.shields.io/github/followers/maslla100?style=social)
 
-Project Code URL:https://maslla100.github.io/myportfolio/index.html
+Github Code URL:https://maslla100.github.io/myportfolio/index.html
 
-Github Page URL:https://github.com/maslla100/myportfolio
+Web Page URL:https://github.com/maslla100/myportfolio
