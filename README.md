@@ -1,18 +1,22 @@
-# Challenge-UTA-2
+# My Portfolio
 
-Coding Bootcamp UT Austin challenge 2
+My Portfolion web page.
 
 Version 1.0.0
-Deployment Date: 2021-01-23
+Deployment Date: 2023-11-09
 Contributors: Luis Llamas
 
 ## Description
 
-This is a challenge for the UT Austin Coding Bootcamp. The challenge is to create a portfolio page using Bootstrap and a provided mockup. The page must be responsive and have a navbar, responsive layout, and responsive images. The page must also have a functional contact form.
+This is my portfolio page for github to show case my skills and abilities.
+
+<img width="802" alt="Screenshot 2023-11-09 at 11 32 46 AM" src="https://github.com/maslla100/myportfolio/assets/115488593/22f3710f-1ac6-45b2-88c0-238ce09882a1">
+<img width="1598" alt="Screenshot 2023-11-09 at 11 33 26 AM" src="https://github.com/maslla100/myportfolio/assets/115488593/afa079c4-57e4-4d95-9c59-d7e01df14aba">
+
 
 ## Features
 
-This project has a navbar, responsive layout, responsive images, and a functional contact form.
+This project has a navbar, responsive layout, responsive images, and it is adjusted for computer screens as wells as mobile phones.
 
 ## Technologies
 
@@ -24,11 +28,11 @@ To install this project, download the repository files to your local machine. Op
 
 ## Usage
 
-To use this project, open the index.html file in your browser. The page will display the portfolio page. Click on the links in the navbar to navigate to the other pages. Click on the images to view the full size images. Click on the links in the footer to navigate to the social media pages. Click on the "Contact" link in the navbar to navigate to the contact page. Fill out the form and click the "Submit" button to submit the form. Click on the "Submit" button without filling out the form to see the validation.
+To use this project, open the index.html file in your browser. The page will display the portfolio page. Click on the links in the navbar to navigate to the other pages.  Hover over the images to increase them in size or highlight their description.
 
 ## Credits
 
-This project was created by Luis Llamas. The mockup was provided by the UT Austin Coding Bootcamp.
+This project was created by Luis Llamas. 
 
 ## License
 
@@ -40,7 +44,7 @@ To contribute to this project, please contact the author.
 
 ## Tests
 
-To test this project, open the index.html file in your browser. Click on the links in the navbar to navigate to the other pages. Click on the images to view the full size images. Click on the links in the footer to navigate to the social media pages. Click on the "Contact" link in the navbar to navigate to the contact page. Fill out the form and click the "Submit" button to submit the form. Click on the "Submit" button without filling out the form to see the validation.
+To test this project, open the index.html file in your browser. Click on the links in the navbar to navigate to the other pages.
 
 ## Questions
 
@@ -52,6 +56,6 @@ If you have any questions about this project, please contact the author.
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maslla100/Challenge-UTA-2)
 ![GitHub followers](https://img.shields.io/github/followers/maslla100?style=social)
 
-Project Code URL:https://github.com/maslla100/Challenge-UTA-2
+Project Code URL:https://maslla100.github.io/myportfolio/index.html
 
-Github Page URL:https://maslla100.github.io/Challenge-UTA-2/
+Github Page URL:https://github.com/maslla100/myportfolio
